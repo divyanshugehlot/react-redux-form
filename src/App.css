@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(./asset/bg.png);
+}
+.userInfo{
+  margin-top: 132px;
+}
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding: 1rem 2rem;
+
+}
+.header :hover{
+  opacity: 0.9;
+}
+.header-container{
+  display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+  
+
+}
+
+.header-container-logout{
+  display: flex;
+  background-color: green;
+  height: 50px;
+  width: 70px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25%;
+  cursor: pointer;
+}
+
